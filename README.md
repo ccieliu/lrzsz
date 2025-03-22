@@ -2,10 +2,13 @@
 - As you know, "lrzsz" removed from alpine package manager mirror.
 - Please feel free to use:
 
+## Install Commands For "Alpine"
 ```bash
-curl -sSL https://github.com/ccieliu/lrzsz-alpine-bin/releases/download/0.12.20/lrzsz-0.12.20-alpine-bin.tgz | tar -xz
-chmod +x lr* ls* && sudo cp lr* ls* /usr/local/bin/
+wget -qO- https://github.com/ccieliu/lrzsz-alpine-bin/releases/download/0.12.20/lrzsz-0.12.20-alpine-bin.tgz | tar -xz
+chmod +x lr* ls* && cp lr* ls* /usr/local/bin/
 ```
+
+
 
 ```text
 lrzsz is a X/Y/ZModem package built from the public-domain version of
